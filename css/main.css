@@ -1,3 +1,47 @@
-/*
- * Estilos de tu proyecto
- */
+/* reseteando el codigo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Clase reutilizables */
+body {
+    margin: 0 auto;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+
+  .text-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+/* header */
+
+header{
+	z-index: 1;
+	position: fixed;
+	background-image: url(../assets/images/hero.gif);
+	background-size: cover;
+	top:0;
+	left:0;
+	width: 100%;
+  height: auto;
+	padding-bottom: 10px;
+  outline: 1px solid red;
+}
+
+.container-nav {
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow: auto;
+  width: 90%;
+}
+
+header figure img {
+  width: 70px;
+  height: auto;
+
+}
