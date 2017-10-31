@@ -203,3 +203,85 @@ header figure img {
   float: right;
   width: 50%;
 }
+
+/* PARTE 2 - LUCERO */
+
+/* clases reutilizables */
+
+.to-uppercase {
+  text-transform: uppercase;
+}
+
+/* VIDEOS AND CAPTIONS */
+
+.part1,
+.part2,
+.part3 {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  
+}
+
+.right-video {
+  float: right;    
+}
+
+.left-video {
+  float: left;
+}
+
+.left-box {
+  display: inline-block;
+  position: absolute;
+  margin-right: 70%;
+}
+
+.right-box {
+  display: inline-block;
+  margin-left: 70%;
+  position: absolute;
+  float: right;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #333447;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  overflow: auto;
+  color: #fff;
+}
+
+.column1,
+.column2,
+.column3 {
+  display: inline-block;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+a:hover {
+  color: #FF00BF;
+  text-decoration: underline;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer img {
+  width: 160px;
+  height: 50px;
+  display: inline-block;
+ 
+}
+
+
