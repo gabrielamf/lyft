@@ -222,11 +222,11 @@ header figure img {
   position: relative;
   overflow: hidden;
   background-color: #fff;
-  
+
 }
 
 .right-video {
-  float: right;    
+  float: right;
 }
 
 .left-video {
@@ -256,16 +256,36 @@ footer {
   color: #fff;
 }
 
+footer .first-footer {
+  width: 90%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.first-footer .options {
+  width: 50%;
+  margin: 0 auto;
+  float: left;
+}
+
+.first-footer .logos-social {
+  width: 50%;
+  margin: 0 auto;
+  float: right;
+  right: 0;
+}
+
 .column1,
 .column2,
 .column3 {
   display: inline-block;
+
 }
 
 footer a {
   text-decoration: none;
   color: #fff;
-  
+
 }
 
 a:hover {
@@ -275,13 +295,12 @@ a:hover {
 
 footer ul {
   list-style: none;
+  display: inline-block;
 }
 
 footer img {
   width: 160px;
   height: 50px;
   display: inline-block;
- 
+
 }
-
-
