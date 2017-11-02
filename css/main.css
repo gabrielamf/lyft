@@ -219,31 +219,85 @@ header figure img {
 .part3 {
   font-family: 'Montserrat', sans-serif;
   width: 100%;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
   background-color: #fff;
-  
-}
-
-.right-video {
-  float: right;    
-}
-
-.left-video {
-  float: left;
 }
 
 .left-box {
   display: inline-block;
   position: absolute;
-  margin-right: 70%;
+  margin-top: 50px;
+  margin-left: 75px;
+  margin-right: 75%;
 }
 
 .right-box {
   display: inline-block;
-  margin-left: 70%;
-  position: absolute;
+  margin-top: 50px;
+  margin-right: 75px;
+  margin-left: 75%;
+  /* position: absolute; */
   float: right;
+}
+
+.part1 a,
+.part2 a,
+.part3 a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #333447;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.part1 h3,
+.part2 h3,
+.part3 h3 {
+  color: #333447;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.part1 p,
+.part2 p,
+.part3 p {
+  color: #333447;
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 28px;
+} 
+
+.right-video {
+  /* float: right;  */
+  position: relative;
+	padding-bottom: 35%;
+	/* padding-top: 25px; */
+	height: 0;   
+}
+
+.left-video {
+  /* float: left; */
+  position: relative;
+	padding-bottom: 35%;
+	/* padding-top: 25px; */
+	height: 0;
+}
+
+.right-video iframe {
+  position: absolute;
+	top: 0;
+	left: 30%;
+	width: 70%;
+	height: 100%;
+}
+
+.left-video iframe {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 65%;
+	height: 100%;
 }
 
 /* FOOTER */
@@ -265,7 +319,6 @@ footer {
 footer a {
   text-decoration: none;
   color: #fff;
-  
 }
 
 a:hover {
@@ -281,7 +334,6 @@ footer img {
   width: 160px;
   height: 50px;
   display: inline-block;
- 
 }
 
 
