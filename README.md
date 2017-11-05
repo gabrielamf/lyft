@@ -8,7 +8,7 @@
 
 #### El presente repositorio se desarrolló en el horario de clases en grupo de dos personas del mismo squad.
 
-#### Se buscó con esta dinámica también que nosotras mismas investiguemos sobre colaboraciones en github.
+#### Se buscó con esta dinámica, además, que nosotras mismas investiguemos sobre colaboraciones en github.
 
 
 ## Objetivo
@@ -17,7 +17,7 @@
 
 ![Lyft Website](docs/fullpage.png)
 
-#### Se tendrán en cuanta las siguientes consideraciones: 
+#### Se tendrán en cuenta las siguientes consideraciones: 
 
 * Pixel perfect (replicar el diseño con exactitud)
 * Estructura de carpetas y archivos
